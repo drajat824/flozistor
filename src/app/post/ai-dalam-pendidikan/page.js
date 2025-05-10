@@ -81,7 +81,25 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Terakhir, untuk menjawab pertanyaan dari judul ini, <span style={{ fontWeight: 'bold' }}>'AI dalam Pendidikan: Ancaman atau Kawan?'</span>, penulis dapat menyimpulkan bahwa AI adalah pedang bermata dua, ia dapat menjadi kawan yang membantu banyak hal, tetapi juga bisa menjadi musuh yang terlihat baik namun sebenarnya menghancurkan dari dalam.
+                        Terakhir, untuk menjawab pertanyaan dari judul ini:
+                    </p>
+
+                    <blockquote style={{
+                        fontSize: '1.3rem',
+                        fontStyle: 'italic',
+                        color: '#333',
+                        margin: '20px auto',
+                        padding: '10px',
+                        paddingLeft: '20px',
+                        marginBottom: '30px',
+                        borderLeft: '5px solid #ccc',
+                        fontWeight: 'bold',
+                    }}>
+                        AI dalam Pendidikan, Ancaman atau Kawan?
+                    </blockquote>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Penulis dapat menyimpulkan bahwa AI adalah pedang bermata dua, ia dapat menjadi kawan yang membantu banyak hal, tetapi juga bisa menjadi musuh yang terlihat baik, namun sebenarnya menghancurkan dari dalam.
                     </p>
 
                 </Container>
@@ -150,7 +168,25 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Terakhir, untuk menjawab pertanyaan dari judul ini, <span style={{ fontWeight: 'bold' }}>'AI dalam Pendidikan: Ancaman atau Kawan?'</span>, penulis dapat menyimpulkan bahwa AI adalah pedang bermata dua, ia dapat menjadi kawan yang membantu banyak hal, tetapi juga bisa menjadi musuh yang terlihat baik namun sebenarnya menghancurkan dari dalam.
+                        Terakhir, untuk menjawab pertanyaan dari judul ini:
+                    </p>
+
+                    <blockquote style={{
+                        fontSize: '1.3rem',
+                        fontStyle: 'italic',
+                        color: '#333',
+                        margin: '20px auto',
+                        padding: '10px',
+                        paddingLeft: '20px',
+                        marginBottom: '30px',
+                        borderLeft: '5px solid #ccc',
+                        fontWeight: 'bold',
+                    }}>
+                        AI dalam Pendidikan, Ancaman atau Kawan?
+                    </blockquote>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Penulis dapat menyimpulkan bahwa AI adalah pedang bermata dua, ia dapat menjadi kawan yang membantu banyak hal, tetapi juga bisa menjadi musuh yang terlihat baik, namun sebenarnya menghancurkan dari dalam.
                     </p>
 
                 </Container>
