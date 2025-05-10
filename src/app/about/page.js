@@ -22,7 +22,7 @@ export default function PostPage() {
 
           {/* Postingan */}
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-            Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. Rasanya seperti menjadi Iron Man tanpa JARVIS 😅
+            Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. 
           </p>
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
             Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah penulis pelajari dan tutorial dari berbagai projek yang sudah penulis buat. Namun, terkadang penulis juga menuliskan pandangan penulis tentang beberapa hal yang penulis temui.
@@ -53,7 +53,7 @@ export default function PostPage() {
 
           {/* Postingan */}
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-            Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. Rasanya seperti menjadi Iron Man tanpa JARVIS 😅
+            Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. 
           </p>
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
             Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah penulis pelajari dan tutorial dari berbagai projek yang sudah penulis buat. Namun, terkadang penulis juga menuliskan pandangan penulis tentang beberapa hal yang penulis temui.
