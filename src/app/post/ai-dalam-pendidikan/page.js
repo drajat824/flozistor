@@ -83,7 +83,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Namun seperti yang sudah penulis jabarkan sebelumnya, AI juga bermanfaat jika digunakan sesuai porsinya. Seperti artikel yang anda baca ini, penulis memang tidak menggunakan AI untuk sekedar <span style={{ fontStyle: "italic" }}>copy-paste</span>. Tapi penulis melakukan brainstorming dengan AI, penulis berdialog dengan ChatGPT dan membahas beberapa poin yang kemudian penulis jabarkan pada artikel ini.
+                        Namun seperti yang sudah penulis jabarkan sebelumnya, AI juga bermanfaat jika digunakan sesuai porsinya. Seperti artikel yang anda baca ini, penulis memang tidak menggunakan AI untuk sekedar <span style={{ fontStyle: "italic" }}>copy-paste</span>. Tapi penulis melakukan brainstorming dengan AI, penulis berdialog dengan ChatGPT dan membahas beberapa poin yang kemudian penulis jabarkan dengan analisis, pemikiran dan gaya bahasa penulis pada artikel ini.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
@@ -174,7 +174,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Namun seperti yang sudah penulis jabarkan sebelumnya, AI juga bermanfaat jika digunakan sesuai porsinya. Seperti artikel yang anda baca ini, penulis memang tidak menggunakan AI untuk sekedar <span style={{ fontStyle: "italic" }}>copy-paste</span>. Tapi penulis melakukan brainstorming dengan AI, penulis berdialog dengan ChatGPT dan membahas beberapa poin yang kemudian penulis jabarkan pada artikel ini.
+                        Namun seperti yang sudah penulis jabarkan sebelumnya, AI juga bermanfaat jika digunakan sesuai porsinya. Seperti artikel yang anda baca ini, penulis memang tidak menggunakan AI untuk sekedar <span style={{ fontStyle: "italic" }}>copy-paste</span>. Tapi penulis melakukan brainstorming dengan AI, penulis berdialog dengan ChatGPT dan membahas beberapa poin yang kemudian penulis jabarkan dengan analisis, pemikiran dan gaya bahasa penulis pada artikel ini.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
