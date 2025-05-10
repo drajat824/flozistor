@@ -69,8 +69,10 @@ export default function PostPage() {
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
                         Dalam artikel penulis yang lain <a href="https://blog-flozistor.vercel.app/post/dari-pythagoras-sampai-sepotong-kue">‘Dari Pythagoras Sampai Sepotong Kue’</a>, penulis menyebutkan bahwa pendidikan seharusnya adalah sebuah proses yang menggembirakan dan tercipta dari keingintahuan manusia. Jika bergantung pada AI untuk mengerjakan segala hal, tanpa pernah membaca dan memahami sendiri, maka kita bisa kehilangan keterampilan berpikir, kreativitas dan yang paling parah, kita bisa kehilangan curiosity (keingintahuan).
                     </p>
-
-                    <Image src="/post/curio.png" alt="Keingintahuan" width={1920} height={1080} style={{ width: '60%', height: 'auto', paddingBottom: 30 }} />
+                    
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <Image src="/post/curio.png" alt="Keingintahuan" width={1920} height={1080} style={{ width: '60%', height: 'auto', paddingBottom: 30 }} />
+                    </div>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
                         Kehilangan rasa ingin tahu dalam proses pembelajaran adalah sebuah bencana. Tanpa rasa ingin tahu, esensi dari pembelajaran tidak akan pernah ada. Proses pembelajaran hanya akan dimaknai sebagai kegiatan biasa yang melelahkan dan membosankan. Jika hal ini terus berlanjut dan banyak dialami oleh peserta didik, pada akhirnya akan menciptakan sebuah generasi yang tidak memiliki kemampuan untuk berpikir secara mandiri. Sebuah generasi yang hanya bergantung pada teknologi tanpa tahu esensi hidup mereka sendiri.
