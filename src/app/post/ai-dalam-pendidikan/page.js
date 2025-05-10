@@ -59,7 +59,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/" style={{fontWeight: 'bold'}}>Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
+                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/" style={{fontWeight: 'bold'}}>Universitas Negeri Yogyakarta</a>. Ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI. Sehingga mahasiswa dapat meningkatkan kemampuan berfikir kritis dan logis dengan bantuan AI.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
@@ -152,7 +152,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/" style={{fontWeight: 'bold'}}>Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
+                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/" style={{fontWeight: 'bold'}}>Universitas Negeri Yogyakarta</a>. Ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI. Sehingga mahasiswa dapat meningkatkan kemampuan berfikir kritis dan logis dengan bantuan AI.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
