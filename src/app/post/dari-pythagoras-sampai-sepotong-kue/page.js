@@ -20,7 +20,7 @@ export default function PostPage() {
       <div className='d-none d-lg-flex' style={{ marginTop: '450px' }}>
         <Container style={{ paddingBottom: '30px', paddingLeft: '100px', paddingRight: '100px' }}>
 
-          {/* Postingan */}
+          {/* Artikel */}
           <blockquote style={{
             fontSize: '1.3rem',
             fontStyle: 'italic',
@@ -76,7 +76,7 @@ export default function PostPage() {
       {/* Konten Mobile */}
       <div className="d-flex d-lg-none" style={{ marginTop: '400px' }}>
         <Container style={{ paddingBottom: '40px', paddingLeft: '20px', paddingRight: '20px' }}>
-          {/* Postingan */}
+          {/* Artikel */}
           <blockquote style={{
             fontSize: '1.3rem',
             fontStyle: 'italic',

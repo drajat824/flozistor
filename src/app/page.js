@@ -24,10 +24,10 @@ export default function Home() {
           <BannerDesktop />
 
           <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
-            Postingan Terbaru
+            Artikel Terbaru
           </p>
 
-          {/* Postingan */}
+          {/* Artikel */}
 
           <Link href="/post/ai-dalam-pendidikan" onClick={() => window.location.href = "/post/ai-dalam-pendidikan"} style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }}>
             <p style={{ fontWeight: 'bolder', fontSize: '2.3rem' }}>AI dalam Pendidikan, Ancaman atau Kawan?</p>
@@ -41,8 +41,8 @@ export default function Home() {
             <p style={{ fontSize: '1rem' }}>Diposting oleh Drajat Fikri pada 1/3/2024 | Pendidikan</p>
           </Link>
 
-          {/* Button Postingan */}
-          <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA POSTINGAN</Button>
+          {/* Button Artikel */}
+          <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA ARTIKEL</Button>
         </Container>
       </div>
 
@@ -52,10 +52,10 @@ export default function Home() {
           <BannerMobile />
 
           <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
-            Postingan Terbaru
+            Artikel Terbaru
           </p>
 
-          {/* Postingan */}
+          {/* Artikel */}
 
           {/* Repeatable Link Component */}
 
@@ -71,8 +71,8 @@ export default function Home() {
             <p style={{ fontSize: 15 }}>Diposting oleh Drajat Fikri pada 1/3/2024 | Pendidikan</p>
           </Link>
 
-          {/* Button Postingan */}
-          <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA POSTINGAN</Button>
+          {/* Button Artikel */}
+          <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA ARTIKEL</Button>
         </Container>
       </div>
     </div>

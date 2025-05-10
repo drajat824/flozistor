@@ -20,7 +20,7 @@ export default function PostPage() {
       <div className='d-none d-lg-flex' style={{ marginTop: '450px' }}>
         <Container style={{ paddingBottom: '30px', paddingLeft: '100px', paddingRight: '100px' }}>
 
-          {/* Postingan */}
+          {/* Artikel */}
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
             Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. 
           </p>
@@ -51,7 +51,7 @@ export default function PostPage() {
       <div className="d-flex d-lg-none" style={{ marginTop: '30px' }}>
         <Container style={{ paddingBottom: '40px' }}>
 
-          {/* Postingan */}
+          {/* Artikel */}
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
             Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. 
           </p>

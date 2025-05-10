@@ -16,13 +16,13 @@ export default function PostPage() {
       <MyNavbar />
 
       {/* Background Image */}
-      <BackgroundImage src="/post.png" title="POSTINGAN" subtitle={`JELAJAHI BERBAGAI POSTINGAN MENARIK SEPUTAR TIPS, TUTORIAL,\nCERITA, DAN INFORMASI TERBARU MENGENAI TEKNOLOGI`} />
+      <BackgroundImage src="/post.png" title="ARTIKEL" subtitle={`JELAJAHI BERBAGAI ARTIKEL MENARIK SEPUTAR TIPS, TUTORIAL,\nCERITA, DAN INFORMASI TERBARU MENGENAI TEKNOLOGI`} />
 
       {/* Konten Desktop */}
       <div className='d-none d-lg-flex' style={{ marginTop: '450px' }}>
         <Container style={{ paddingBottom: '30px', paddingLeft: '100px', paddingRight: '100px' }}>
 
-          {/* Postingan */}
+          {/* Artikel */}
 
           {/* Repeatable Link Component */}
 
@@ -45,7 +45,7 @@ export default function PostPage() {
       <div className='d-flex d-lg-none' style={{ marginTop: '30px' }}>
         <Container style={{ paddingBottom: '30px' }}>
 
-          {/* Postingan */}
+          {/* Artikel */}
 
           {/* Repeatable Link Component */}
           <Link href="/post/dari-pythagoras-sampai-sepotong-kue" onClick={() => window.location.href = "/post/dari-pythagoras-sampai-sepotong-kue"} style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }}>

@@ -21,7 +21,7 @@ export default function MyNavbar() {
 
               <Link href="/post" onClick={() => window.location.href = "/post"} passHref style={{textDecoration: 'none'}} >
                 <Nav.Link style={{ fontSize: '1.3rem', color: 'white', fontWeight: 'bold', textDecoration: 'none' }}>
-                  Postingan
+                  Artikel
                 </Nav.Link>
               </Link>
 
@@ -43,7 +43,7 @@ export default function MyNavbar() {
             <Nav className="me-auto"></Nav>
             <Nav className="me-auto">
               <Nav.Link href="/">Beranda</Nav.Link>
-              <Nav.Link href="/post">Postingan</Nav.Link>
+              <Nav.Link href="/post">Artikel</Nav.Link>
               <Nav.Link href="/about">Tentang Saya</Nav.Link>
             </Nav>
           </Navbar.Collapse>
