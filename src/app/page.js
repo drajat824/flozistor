@@ -23,6 +23,10 @@ export default function Home() {
         <Container style={{ paddingBottom: '30px', paddingLeft: '100px', paddingRight: '100px' }}>
           <BannerDesktop />
 
+          <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
+            Postingan Terbaru
+          </p>
+
           {/* Postingan */}
 
           <Link href="/post/ai-dalam-pendidikan" onClick={() => window.location.href = "/post/ai-dalam-pendidikan"} style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }}>
@@ -46,6 +50,10 @@ export default function Home() {
       <div className='d-flex d-lg-none' style={{ marginTop: '30px' }}>
         <Container style={{ paddingBottom: '30px' }}>
           <BannerMobile />
+
+          <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
+            Postingan Terbaru
+          </p>
 
           {/* Postingan */}
 
