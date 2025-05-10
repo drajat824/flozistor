@@ -69,13 +69,17 @@ export default function PostPage() {
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
                         Dalam artikel penulis yang lain <a href="https://blog-flozistor.vercel.app/post/dari-pythagoras-sampai-sepotong-kue">‘Dari Pythagoras Sampai Sepotong Kue’</a>, penulis menyebutkan bahwa pendidikan seharusnya adalah sebuah proses yang menggembirakan dan tercipta dari keingintahuan manusia. Jika bergantung pada AI untuk mengerjakan segala hal, tanpa pernah membaca dan memahami sendiri, maka kita bisa kehilangan keterampilan berpikir, kreativitas dan yang paling parah, kita bisa kehilangan curiosity (keingintahuan).
                     </p>
-                    
+
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <Image src="/post/curio.png" alt="Keingintahuan" width={1920} height={1080} style={{ width: '60%', height: 'auto', paddingBottom: 30 }} />
                     </div>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
                         Kehilangan rasa ingin tahu dalam proses pembelajaran adalah sebuah bencana. Tanpa rasa ingin tahu, esensi dari pembelajaran tidak akan pernah ada. Proses pembelajaran hanya akan dimaknai sebagai kegiatan biasa yang melelahkan dan membosankan. Jika hal ini terus berlanjut dan banyak dialami oleh peserta didik, pada akhirnya akan menciptakan sebuah generasi yang tidak memiliki kemampuan untuk berpikir secara mandiri. Sebuah generasi yang hanya bergantung pada teknologi tanpa tahu esensi hidup mereka sendiri.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/">Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
@@ -145,6 +149,10 @@ export default function PostPage() {
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
                         Di dunia pendidikan, AI seringkali digunakan untuk membantu proses pembelajaran seperti menjawab pertanyaan, memberikan penjelasan sebuah materi secara instan dan lain sebagainya. Ini sangat membantu peserta didik untuk mendapatkan pemahaman mengenai materi pembelajaran yang adaptif, sehingga peserta didik mampu menerima materi pembelajaran sesuai kemampuan dan gaya belajarnya masing-masing. Untuk pendidik, AI seringkali digunakan dalam proses otomatisasi, seperti mengelola berkas, membuat slide presentasi materi, menilai tugas, membuat soal bahkan merancang metode pembelajaran yang efektif.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/">Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
