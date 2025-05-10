@@ -74,11 +74,9 @@ export default function PostPage() {
       </div>
 
       {/* Konten Mobile */}
-      <div className="d-flex d-lg-none" style={{ marginTop: '350px' }}>
-        <Container style={{ paddingBottom: '40px' }}>
-
+      <div className="d-flex d-lg-none" style={{ marginTop: '400px' }}>
+        <Container style={{ paddingBottom: '40px', paddingLeft: '20px', paddingRight: '20px' }}>
           {/* Postingan */}
-                    {/* Postingan */}
           <blockquote style={{
             fontSize: '1.3rem',
             fontStyle: 'italic',

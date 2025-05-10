@@ -31,20 +31,20 @@ export default function BackgroundImage({ src, title, subtitle }) {
                 <h1 style={{ color: 'white', position: 'absolute', top: '40%', fontSize: '4rem', fontWeight: 'bold', whiteSpace: 'pre-wrap', textAlign: 'center' }}>{title}</h1>
             </div>
             {/* Mobile */}
-            <div style={{ position: 'absolute', top: 80, left: 0, width: '100%', display: 'flex', justifyContent: 'center' }} className="d-flex d-lg-none">
+            <div style={{ position: 'absolute', left: 0, width: '100%', display: 'flex', justifyContent: 'center' }} className="d-flex d-lg-none">
                 <div>
-                    <h1 style={{ color: 'black', fontSize: '2rem', fontWeight: 'bold', whiteSpace: 'pre-wrap', textAlign: 'center' }}>{title}</h1>
-                    <div style={{ position: 'relative', width: '90vw', height: 'auto' }}>
+                    <div style={{ position: 'relative', width: '100vw', height: 'auto' }}>
                         <Image
                             src={src}
                             width={1920}
                             height={1080}
-                            style={{ width: '90vw', height: 'auto', filter: 'brightness(80%)' }}
+                            style={{ width: '100vw', height: 'auto', filter: 'brightness(80%)' }}
                             alt='Background Image'
                             priority
                             unoptimized
                         />
                     </div>
+                    <h1 style={{ color: 'black', fontSize: '2rem', fontWeight: 'bold', whiteSpace: 'pre-wrap', textAlign: 'center', paddingTop: 30, paddingLeft: 20, paddingRight: 20 }}>{title}</h1>
                 </div>
 
             </div>

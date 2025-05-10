@@ -5,7 +5,8 @@ import { Container, Button } from 'react-bootstrap';
 import MyNavbar from "../../components/MyNavbar";
 import TitlePost from "../../components/TitlePost";
 import Game from "../../components/Game";
-
+import GameMobile from "../../components/GameMobile";
+import Image from "next/image";
 
 export default function PostPage() {
     return (
@@ -34,73 +35,122 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Permainan tersebut dibuat menggunakan ChatGPT, sebuah Artificial Intelligence (AI) yang dikembangkan oleh OpenAI dan dirancang untuk memahami dan menghasilkan teks dalam berbagai konteks bahkan hingga menyelesaikan tugas seperti pemrograman.
+                        Permainan tersebut dibuat menggunakan ChatGPT, sebuah <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) yang dikembangkan oleh OpenAI dan dirancang untuk memahami dan menghasilkan teks dalam berbagai konteks bahkan hingga menyelesaikan tugas seperti pemrograman.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Meskipun permainan diatas terlihat sangat sederhana dan remeh. Namun dewasa ini, perkembangan Artificial Intelligence (AI) tidak sesederhana dan sebatas itu. AI telah merambah ke berbagai bidang seperti kesehatan, militer bahkan pendidikan. Perkembangan AI sendiri sebenarnya sudah dimulai cukup lama, dimulai sejak tahun 1950-an saat seorang ilmuwan dari Massachusetts Institute of Technology (MIT) bernama John McCarthy menggagas sebuah konferensi di Dartmouth College di Hanover, Amerika Serikat. 
+                        Meskipun permainan diatas terlihat sangat sederhana dan remeh. Namun dewasa ini, perkembangan <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) tidak sesederhana dan sebatas itu. AI telah merambah ke berbagai bidang seperti kesehatan, militer bahkan pendidikan. Perkembangan AI sendiri sebenarnya sudah dimulai cukup lama, dimulai sejak tahun 1950-an saat seorang ilmuwan dari Massachusetts Institute of Technology (MIT) bernama John McCarthy menggagas sebuah konferensi di Dartmouth College di Hanover, Amerika Serikat.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                       Mari kita loncat ke tahun 1997, di mana pada tahun tersebut seorang Garry Kasparov yang merupakan juara catur dunia, dikalahkan oleh sebuah super komputer milik IBM bernama Deep Blue dalam sebuah pertandingan. Ini merupakan salah satu tonggak penting dalam perkembangan kecerdasan buatan/Artificial Intelligence (AI). <a href="https://www.merdeka.com/sumut/peristiwa-11-mei-komputer-milik-ibm-bernama-deep-blue-mengalahkan-pecatur-ulung-garry-kasparov-128206-mvk.html">(Sumber: Merdeka)</a>
+                        Mari kita loncat ke tahun 1997, di mana pada tahun tersebut seorang Garry Kasparov yang merupakan juara catur dunia, dikalahkan oleh sebuah super komputer milik IBM bernama Deep Blue dalam sebuah pertandingan. Ini merupakan salah satu tonggak penting dalam perkembangan kecerdasan buatan/<span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI). <a href="https://www.merdeka.com/sumut/peristiwa-11-mei-komputer-milik-ibm-bernama-deep-blue-mengalahkan-pecatur-ulung-garry-kasparov-128206-mvk.html">(Sumber: Merdeka)</a>
                     </p>
-                    
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Kembali ke masa sekarang, hype mengenai AI di masyarakat muncul saat OpenAI merilis ChatGPT pada tanggal 30 November 2022. Hype ini tidak terbendung dan kemudian melahirkan banyak chatbot lain serupa ChatGPT hingga saat ini. Tidak sebatas itu, AI kini juga hadir dalam berbagai kebutuhan, seperti membuat slide presentasi, merancang desain, menyusun laporan dan lain sebagainya.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20, fontWeight: 'bold' }} >
+                        AI dalam Pendidikan
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Di dunia pendidikan, AI seringkali digunakan untuk membantu proses pembelajaran seperti menjawab pertanyaan, memberikan penjelasan sebuah materi secara instan dan lain sebagainya. Ini sangat membantu peserta didik untuk mendapatkan pemahaman mengenai materi pembelajaran yang adaptif, sehingga peserta didik mampu menerima materi pembelajaran sesuai kemampuan dan gaya belajarnya masing-masing. Untuk pendidik, AI seringkali digunakan dalam proses otomatisasi, seperti mengelola berkas, membuat slide presentasi materi, menilai tugas, membuat soal bahkan merancang metode pembelajaran yang efektif.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Namun, semua kemudahan ini bukan berarti tanpa tantangan. AI juga membawa dampak buruk jika digunakan tidak semestinya. Dewasa ini, entah sudah berapa kali seorang pendidik menemukan kecurangan yang dilakukan oleh peserta didik, baik dalam ujian maupun tugas-tugas yang dikerjakan. Model kecurangan ini bertambah dan semakin pelik untuk dideteksi akibat munculnya AI. Peserta didik seringkali hanya mengandalkan AI untuk menjawab tugas-tugas tanpa tahu esensi sebenarnya dari materi tersebut, dan juga jawaban-jawaban yang diberikan oleh AI sulit untuk dideteksi, apakah kalimat tersebut benar ditulis langsung oleh peserta didik, hasil <span style={{ fontStyle: "italic" }}>copy-paste</span> chatbot atau  parafrase dari jawaban chatbot.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20, fontWeight: 'bold' }} >
+                        Ancaman atau Kawan
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Dalam artikel penulis yang lain <a href="https://blog-flozistor.vercel.app/post/dari-pythagoras-sampai-sepotong-kue">‘Dari Pythagoras Sampai Sepotong Kue’</a>, penulis menyebutkan bahwa pendidikan seharusnya adalah sebuah proses yang menggembirakan dan tercipta dari keingintahuan manusia. Jika bergantung pada AI untuk mengerjakan segala hal, tanpa pernah membaca dan memahami sendiri, maka kita bisa kehilangan keterampilan berpikir, kreativitas dan yang paling parah, kita bisa kehilangan curiosity (keingintahuan).
+                    </p>
+
+                    <Image src="/post/curio.png" alt="Keingintahuan" width={1920} height={1080} style={{ width: '60%', height: 'auto', paddingBottom: 30 }} />
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Kehilangan rasa ingin tahu dalam proses pembelajaran adalah sebuah bencana. Tanpa rasa ingin tahu, esensi dari pembelajaran tidak akan pernah ada. Proses pembelajaran hanya akan dimaknai sebagai kegiatan biasa yang melelahkan dan membosankan. Jika hal ini terus berlanjut dan banyak dialami oleh peserta didik, pada akhirnya akan menciptakan sebuah generasi yang tidak memiliki kemampuan untuk berpikir secara mandiri. Sebuah generasi yang hanya bergantung pada teknologi tanpa tahu esensi hidup mereka sendiri.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Namun seperti yang sudah penulis jabarkan sebelumnya, AI juga bermanfaat jika digunakan sesuai porsinya. Seperti artikel yang anda baca ini, penulis memang tidak menggunakan AI untuk sekedar <span style={{ fontStyle: "italic" }}>copy-paste</span>. Tapi penulis melakukan brainstorming dengan AI, penulis berdialog dengan ChatGPT dan membahas beberapa poin yang kemudian penulis jabarkan pada artikel ini.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Terakhir, untuk menjawab pertanyaan dari judul ini, <span style={{ fontWeight: 'bold' }}>'AI dalam Pendidikan: Ancaman atau Kawan?'</span>, penulis dapat menyimpulkan bahwa AI adalah pedang bermata dua, ia dapat menjadi kawan yang membantu banyak hal, tetapi juga bisa menjadi musuh yang terlihat baik namun sebenarnya menghancurkan dari dalam.
+                    </p>
 
                 </Container>
             </div>
 
             {/* Konten Mobile */}
-            <div className="d-flex d-lg-none" style={{ marginTop: '350px' }}>
-                <Container style={{ paddingBottom: '40px' }}>
-
-                    {/* Postingan */}
-                    <blockquote style={{
-                        fontSize: '1.3rem',
-                        fontStyle: 'italic',
-                        color: '#333',
-                        margin: '20px auto',
-                        padding: '10px',
-                        paddingLeft: '20px',
-                        marginBottom: '30px',
-                        borderLeft: '5px solid #ccc',
-                    }}>
-                        Jadikan Setiap Tempat Sebagai Sekolah, Jadikan Setiap Orang Sebagai Guru
-                    </blockquote>
-
+            <div className="d-flex d-lg-none" style={{ marginTop: '420px' }}>
+                <Container style={{ paddingBottom: '40px', paddingLeft: '20px', paddingRight: '20px' }}>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Sebuah kutipan dari Ki Hadjar Dewantara ini membuka tulisan saya kali ini. Saya sengaja memilih kutipan tersebut karena saya berkeyakinan bahwa pendidikan tidak selalu harus terperangkap pada hal-hal formal saja. Pendidikan bisa diperoleh dari merenungkan kisah hidup seorang revolusioner besar seperti Tan Malaka, bersandar di bawah pohon apel sembari mempertanyakan eksistensi gravitasi, menghabiskan waktu seharian penuh di dalam perpustakaan dan terhanyut dalam sajak-sajak oriental Khalil Gibran, atau menceritakan tentang sosok anak muda penuh tawa bernama Lupus.
+                        Sebelum memulai pembahasan, mari kita bermain permainan sederhana berikut ini.
                     </p>
+
+                    <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: 40 }}>
+                        <GameMobile />
+                    </div>
+
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Pendidikan seharusnya adalah sebuah proses yang menggembirakan, ia tercipta dari kata yang cukup mistis, ‘Curiosity’. Sebuah kata sederhana yang kelak menjadi sebab terciptanya peradaban. Sebuah kata yang kelak menjadi alasan umat manusia menginjakkan kakinya pertama kali di bulan. Sebuah kata yang menggerakkan Ibrahim dalam pencariannya terhadap Tuhan yang esa.
+                        Walaupun sederhana, cukup menghibur bukan?
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Namun dewasa ini, melihat dari lingkungan sekitar, pendidikan umumnya hanya dimaknai sebagai proses rutin sebelum mencapai usia dewasa dan berkeluarga. Lebih parahnya, pendidikan hanya dipandang sebagai proses industrialisasi. Tak munafik memang, sampai beberapa bulan. Ah tidak, mungkin sampai beberapa hari lalu saya juga masih terjebak dengan pemikiran ini. Sebenarnya tidak ada yang salah, karena industri juga memiliki standar yang telah ditetapkan untuk mendukung proses produksi. Hanya saja ketika saya merenung lebih dalam, saya seakan-akan mempertanyakan ulang tujuan dari semua ini. Manusia seolah-olah dilahirkan hanya untuk bekerja, tidak lebih. Dan pendidikan diberikan hanya untuk memenuhi kepuasan ego terhadap materi.
-                    </p>
-
-                    <p style={{ fontSize: '1.3rem', fontWeight: 'bold', paddingBottom: 20 }} >
-                        Pythagoras: Mistisme Matematika
+                        Permainan tersebut dibuat menggunakan ChatGPT, sebuah <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) yang dikembangkan oleh OpenAI dan dirancang untuk memahami dan menghasilkan teks dalam berbagai konteks bahkan hingga menyelesaikan tugas seperti pemrograman.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Pythagoras, seorang filsuf yang hidup pada masa Yunani Kuno. Seorang pemikir yang pemikirannya juga turut mempengaruhi pemikiran Plato dan Aristoteles. Seorang yang dewasa ini, namanya diabadikan dalam sebuah rumus matematis dengan nama ‘Teorema Pythagoras’. Dibalik sosoknya yang dikenal sebagai seorang matematikawan, Pythagoras juga dikenal sebagai sosok yang dekat dengan mistisme dan aliran Metempsikosis, yaitu sebuah konsep dalam filsafat Yunani yang berkaitan dengan reinkarnasi. Tidak sampai di situ, kedekatan sosok Pythagoras dan mistisme menjadikan pemikirannya diikuti oleh orang-orang yang kelak disebut sebagai Pythagoreanisme. Menurut Aristoteles, kaum Pythagoreanis menggunakan matematika untuk tujuan mistis dan bukan untuk keperluan sehari-hari.
+                        Meskipun permainan diatas terlihat sangat sederhana dan remeh. Namun dewasa ini, perkembangan <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) tidak sesederhana dan sebatas itu. AI telah merambah ke berbagai bidang seperti kesehatan, militer bahkan pendidikan. Perkembangan AI sendiri sebenarnya sudah dimulai cukup lama, dimulai sejak tahun 1950-an saat seorang ilmuwan dari Massachusetts Institute of Technology (MIT) bernama John McCarthy menggagas sebuah konferensi di Dartmouth College di Hanover, Amerika Serikat.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Terlepas dari kehidupannya yang penuh kontroversi, Pythagoras dan pengikutnya menjadikan matematika sebagai objek mistis yang erat dengan jiwa. Layaknya seorang seniman yang begitu erat dengan karya seninya, Pythagoras menikmati matematika sebagai hal yang menggembirakan dan mungkin sampai pada tingkat sakral. Matematika, sebuah bidang ilmu yang dewasa ini banyak dibenci oleh para peserta didik, sebuah bidang ilmu yang dianggap menakutkan karena berhubungan dengan logika dan angka. Sebuah bidang ilmu, yang bagi sebagian siswa sudah kehilangan mantra ‘Curiosity’-nya.
-                    </p>
-
-                    <p style={{ fontSize: '1.3rem', fontWeight: 'bold', paddingBottom: 20 }} >
-                        Refleksi Pendidikan Masa Kini
+                        Mari kita loncat ke tahun 1997, di mana pada tahun tersebut seorang Garry Kasparov yang merupakan juara catur dunia, dikalahkan oleh sebuah super komputer milik IBM bernama Deep Blue dalam sebuah pertandingan. Ini merupakan salah satu tonggak penting dalam perkembangan kecerdasan buatan/<span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI). <a href="https://www.merdeka.com/sumut/peristiwa-11-mei-komputer-milik-ibm-bernama-deep-blue-mengalahkan-pecatur-ulung-garry-kasparov-128206-mvk.html">(Sumber: Merdeka)</a>
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Sejatinya, pendidikan ada untuk dinikmati bagai sepotong kue. Sedikit demi sedikit, sepotong demi sepotong. Potongan pertama, adalah sebuah potongan dengan rasa ingin tahu. Rasa yang menjadi dasar bagi rasa-rasa lain setelahnya. Rasa yang kemudian tumbuh menjadi akar dan tertancap untuk tegaknya proses pembelajaran kedepannya.
+                        Kembali ke masa sekarang, hype mengenai AI di masyarakat muncul saat OpenAI merilis ChatGPT pada tanggal 30 November 2022. Hype ini tidak terbendung dan kemudian melahirkan banyak chatbot lain serupa ChatGPT hingga saat ini. Tidak sebatas itu, AI kini juga hadir dalam berbagai kebutuhan, seperti membuat slide presentasi, merancang desain, menyusun laporan dan lain sebagainya.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20, fontWeight: 'bold' }} >
+                        AI dalam Pendidikan
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Potongan kedua, adalah potongan yang paling besar dari semua potongan lain. Potongan yang mungkin tak akan habis dimakan hingga potongan terakhir, potongan yang akan selalu tersedia dan dapat dinikmati dimana saja ketika lapar. Sebuah potongan kue yang mungkin semua orang memilikinya dan dapat diminta. Potongan kedua, adalah potongan dengan rasa fleksibilitas. Sebuah rasa yang menekankan bahwa pendidikan hadir di mana saja, dari mana saja, kapan saja, dan oleh siapa saja. Tidak terbatas ruang maupun waktu.
+                        Di dunia pendidikan, AI seringkali digunakan untuk membantu proses pembelajaran seperti menjawab pertanyaan, memberikan penjelasan sebuah materi secara instan dan lain sebagainya. Ini sangat membantu peserta didik untuk mendapatkan pemahaman mengenai materi pembelajaran yang adaptif, sehingga peserta didik mampu menerima materi pembelajaran sesuai kemampuan dan gaya belajarnya masing-masing. Untuk pendidik, AI seringkali digunakan dalam proses otomatisasi, seperti mengelola berkas, membuat slide presentasi materi, menilai tugas, membuat soal bahkan merancang metode pembelajaran yang efektif.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Namun, semua kemudahan ini bukan berarti tanpa tantangan. AI juga membawa dampak buruk jika digunakan tidak semestinya. Dewasa ini, entah sudah berapa kali seorang pendidik menemukan kecurangan yang dilakukan oleh peserta didik, baik dalam ujian maupun tugas-tugas yang dikerjakan. Model kecurangan ini bertambah dan semakin pelik untuk dideteksi akibat munculnya AI. Peserta didik seringkali hanya mengandalkan AI untuk menjawab tugas-tugas tanpa tahu esensi sebenarnya dari materi tersebut, dan juga jawaban-jawaban yang diberikan oleh AI sulit untuk dideteksi, apakah kalimat tersebut benar ditulis langsung oleh peserta didik, hasil <span style={{ fontStyle: "italic" }}>copy-paste</span> chatbot atau  parafrase dari jawaban chatbot.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20, fontWeight: 'bold' }} >
+                        Ancaman atau Kawan
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Dalam artikel penulis yang lain <a href="https://blog-flozistor.vercel.app/post/dari-pythagoras-sampai-sepotong-kue">‘Dari Pythagoras Sampai Sepotong Kue’</a>, penulis menyebutkan bahwa pendidikan seharusnya adalah sebuah proses yang menggembirakan dan tercipta dari keingintahuan manusia. Jika bergantung pada AI untuk mengerjakan segala hal, tanpa pernah membaca dan memahami sendiri, maka kita bisa kehilangan keterampilan berpikir, kreativitas dan yang paling parah, kita bisa kehilangan curiosity (keingintahuan).
+                    </p>
+
+                    <Image src="/post/curio.png" alt="Keingintahuan" width={1920} height={1080} style={{ width: '100%', height: 'auto', paddingBottom: 30 }} />
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Kehilangan rasa ingin tahu dalam proses pembelajaran adalah sebuah bencana. Tanpa rasa ingin tahu, esensi dari pembelajaran tidak akan pernah ada. Proses pembelajaran hanya akan dimaknai sebagai kegiatan biasa yang melelahkan dan membosankan. Jika hal ini terus berlanjut dan banyak dialami oleh peserta didik, pada akhirnya akan menciptakan sebuah generasi yang tidak memiliki kemampuan untuk berpikir secara mandiri. Sebuah generasi yang hanya bergantung pada teknologi tanpa tahu esensi hidup mereka sendiri.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Namun seperti yang sudah penulis jabarkan sebelumnya, AI juga bermanfaat jika digunakan sesuai porsinya. Seperti artikel yang anda baca ini, penulis memang tidak menggunakan AI untuk sekedar <span style={{ fontStyle: "italic" }}>copy-paste</span>. Tapi penulis melakukan brainstorming dengan AI, penulis berdialog dengan ChatGPT dan membahas beberapa poin yang kemudian penulis jabarkan pada artikel ini.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Terakhir, untuk menjawab pertanyaan dari judul ini, <span style={{ fontWeight: 'bold' }}>'AI dalam Pendidikan: Ancaman atau Kawan?'</span>, penulis dapat menyimpulkan bahwa AI adalah pedang bermata dua, ia dapat menjadi kawan yang membantu banyak hal, tetapi juga bisa menjadi musuh yang terlihat baik namun sebenarnya menghancurkan dari dalam.
                     </p>
 
                 </Container>
