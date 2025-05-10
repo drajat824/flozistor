@@ -59,6 +59,10 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
+                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/" style={{fontWeight: 'bold'}}>Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
+                    </p>
+
+                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
                         Namun, semua kemudahan ini bukan berarti tanpa tantangan. AI juga membawa dampak buruk jika digunakan tidak semestinya. Dewasa ini, entah sudah berapa kali seorang pendidik menemukan kecurangan yang dilakukan oleh peserta didik, baik dalam ujian maupun tugas-tugas yang dikerjakan. Model kecurangan ini bertambah dan semakin pelik untuk dideteksi akibat munculnya AI. Peserta didik seringkali hanya mengandalkan AI untuk menjawab tugas-tugas tanpa tahu esensi sebenarnya dari materi tersebut, dan juga jawaban-jawaban yang diberikan oleh AI sulit untuk dideteksi, apakah kalimat tersebut benar ditulis langsung oleh peserta didik, hasil <span style={{ fontStyle: "italic" }}>copy-paste</span> chatbot atau  parafrase dari jawaban chatbot.
                     </p>
 
@@ -76,10 +80,6 @@ export default function PostPage() {
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
                         Kehilangan rasa ingin tahu dalam proses pembelajaran adalah sebuah bencana. Tanpa rasa ingin tahu, esensi dari pembelajaran tidak akan pernah ada. Proses pembelajaran hanya akan dimaknai sebagai kegiatan biasa yang melelahkan dan membosankan. Jika hal ini terus berlanjut dan banyak dialami oleh peserta didik, pada akhirnya akan menciptakan sebuah generasi yang tidak memiliki kemampuan untuk berpikir secara mandiri. Sebuah generasi yang hanya bergantung pada teknologi tanpa tahu esensi hidup mereka sendiri.
-                    </p>
-
-                    <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/">Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
@@ -152,7 +152,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/">Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
+                        Penulis sendiri, adalah seorang mahasiswa di <a href="https://uny.ac.id/" style={{fontWeight: 'bold'}}>Universitas Negeri Yogyakarta</a>. Satu hal yang penulis ingat, ada satu dosen yang pernah memberikan tugas berupa membuat daftar pertanyaan dan jawabannya menggunakan ChatGPT. Beliau berpesan, bahwa perkembangan teknologi tidak bisa dibendung dan harusnya dimanfaatkan sebagaimana mestinya. Mahasiswa diajak untuk berdialog, mengkritik dan menganalisis materi dengan AI.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
