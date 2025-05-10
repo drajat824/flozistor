@@ -1,14 +1,14 @@
 'use client';
 
-import Image from "next/image";
 import Link from "next/link";
 import { Container, Button } from 'react-bootstrap';
-import MyNavbar from "./components/MyNavbar";
-import BackgroundImage from "./components/BackgroundImage";
-import BannerDesktop from "./components/BannerDesktop";
-import BannerMobile from "./components/BannerMobile";
+import MyNavbar from "../components/MyNavbar";
+import BackgroundImage from "../components/BackgroundImage";
+import BannerDesktop from "../components/BannerDesktop";
+import BannerMobile from "../components/BannerMobile";
 
-export default function Home() {
+
+export default function PostPage() {
   return (
     <div>
 
@@ -16,12 +16,11 @@ export default function Home() {
       <MyNavbar />
 
       {/* Background Image */}
-      <BackgroundImage src="/electronics.png" title="FLOZISTOR" subtitle="SEPUTAR TEKNOLOGI, ELEKTRONIKA DAN PEMROGRAMAN" />
+      <BackgroundImage src="/post.png" title="POSTINGAN" subtitle={`JELAJAHI BERBAGAI POSTINGAN MENARIK SEPUTAR TIPS, TUTORIAL,\nCERITA, DAN INFORMASI TERBARU MENGENAI TEKNOLOGI`} />
 
       {/* Konten Desktop */}
       <div className='d-none d-lg-flex' style={{ marginTop: '450px' }}>
         <Container style={{ paddingBottom: '30px', paddingLeft: '100px', paddingRight: '100px' }}>
-          <BannerDesktop />
 
           {/* Postingan */}
 
@@ -38,21 +37,17 @@ export default function Home() {
             <p style={{ fontSize: '1.3rem' }}>Pelajari komponen dasar, fungsi, dan cara kerja rangkaian elektronik secara praktis dan mudah..</p>
             <p style={{ fontSize: '1rem' }}>Diposting oleh Drajat Fikri pada 29/4/2025 | Elektronika</p>
           </Link>
-
-          {/* Button Postingan */}
-          <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA POSTINGAN</Button>
         </Container>
       </div>
 
       {/* Konten Mobile */}
       <div className='d-flex d-lg-none' style={{ marginTop: '30px' }}>
         <Container style={{ paddingBottom: '30px' }}>
-          <BannerMobile />
 
           {/* Postingan */}
 
           {/* Repeatable Link Component */}
-          <Link href="/post/dari-pythagoras-sampai-sepotong-kue" onClick={() => window.location.href = "/post/dari-pythagoras-sampai-sepotong-kue"} style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }}>
+           <Link href="/post/dari-pythagoras-sampai-sepotong-kue" onClick={() => window.location.href = "/post/dari-pythagoras-sampai-sepotong-kue"} style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }}>
             <p style={{ fontWeight: 'bolder', fontSize: 30 }}>Dari Pythagoras Sampai Sepotong Kue</p>
             <p style={{ fontSize: 20 }}>Sebuah kutipan dari Ki Hadjar Dewantara ini membuka tulisan saya kali ini..</p>
             <p style={{ fontSize: 15 }}>Diposting oleh Drajat Fikri pada 1/3/2024 | Pendidikan</p>
@@ -63,9 +58,6 @@ export default function Home() {
             <p style={{ fontSize: 20 }}>Pelajari komponen dasar, fungsi, dan cara kerja rangkaian elektronik secara praktis dan mudah..</p>
             <p style={{ fontSize: 15 }}>Diposting oleh Drajat Fikri pada 29/4/2025 | Elektronika</p>
           </Link>
-
-          {/* Button Postingan */}
-          <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA POSTINGAN</Button>
         </Container>
       </div>
     </div>
