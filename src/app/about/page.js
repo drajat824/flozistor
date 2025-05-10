@@ -22,10 +22,10 @@ export default function PostPage() {
 
           {/* Postingan */}
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-            Saya adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Saya suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. Rasanya seperti menjadi Iron Man tanpa JARVIS 😅
+            Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. Rasanya seperti menjadi Iron Man tanpa JARVIS 😅
           </p>
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-            Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah saya pelajari dan tutorial dari berbagai projek yang sudah saya buat. Namun, terkadang saya juga menuliskan pandangan saya tentang beberapa hal yang saya temui.
+            Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah penulis pelajari dan tutorial dari berbagai projek yang sudah penulis buat. Namun, terkadang penulis juga menuliskan pandangan penulis tentang beberapa hal yang penulis temui.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px' }}>
             <a href="https://github.com/drajat824" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
@@ -53,10 +53,10 @@ export default function PostPage() {
 
           {/* Postingan */}
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-            Saya adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Saya suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. Rasanya seperti menjadi Iron Man tanpa JARVIS 😅
+            Penulis adalah mahasiswa Pendidikan Teknik Elektronika di Universitas Negeri Yogyakarta yang tertarik dengan dunia teknologi, khususnya di bidang elektronika dan pemrograman. Penulis suka bagaimana gabungan antara hardware dan software bisa menciptakan sesuatu yang tidak hanya digital, tapi juga hadir dalam bentuk fisik. Rasanya seperti menjadi Iron Man tanpa JARVIS 😅
           </p>
           <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-            Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah saya pelajari dan tutorial dari berbagai projek yang sudah saya buat. Namun, terkadang saya juga menuliskan pandangan saya tentang beberapa hal yang saya temui.
+            Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah penulis pelajari dan tutorial dari berbagai projek yang sudah penulis buat. Namun, terkadang penulis juga menuliskan pandangan penulis tentang beberapa hal yang penulis temui.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px' }}>
             <a href="https://github.com/drajat824" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
