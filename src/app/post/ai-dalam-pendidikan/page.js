@@ -39,7 +39,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Meskipun permainan diatas terlihat sangat sederhana dan remeh. Namun dewasa ini, perkembangan <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) tidak sesederhana dan sebatas itu. AI telah merambah ke berbagai bidang seperti kesehatan, militer bahkan pendidikan. Perkembangan AI sendiri sebenarnya sudah dimulai cukup lama, dimulai sejak tahun 1950-an saat seorang ilmuwan dari Massachusetts Institute of Technology (MIT) bernama John McCarthy menggagas sebuah konferensi di Dartmouth College di Hanover, Amerika Serikat.
+                        Meskipun permainan di atas terlihat sangat sederhana dan sepele, perkembangan <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) tidak sesederhana dan sebatas itu. AI telah merambah ke berbagai bidang seperti kesehatan, militer bahkan pendidikan. Perkembangan AI sendiri sebenarnya sudah dimulai cukup lama, dimulai sejak tahun 1950-an saat seorang ilmuwan dari Massachusetts Institute of Technology (MIT) bernama John McCarthy menggagas sebuah konferensi di Dartmouth College di Hanover, Amerika Serikat.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
@@ -108,7 +108,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Meskipun permainan diatas terlihat sangat sederhana dan remeh. Namun dewasa ini, perkembangan <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) tidak sesederhana dan sebatas itu. AI telah merambah ke berbagai bidang seperti kesehatan, militer bahkan pendidikan. Perkembangan AI sendiri sebenarnya sudah dimulai cukup lama, dimulai sejak tahun 1950-an saat seorang ilmuwan dari Massachusetts Institute of Technology (MIT) bernama John McCarthy menggagas sebuah konferensi di Dartmouth College di Hanover, Amerika Serikat.
+                        Meskipun permainan di atas terlihat sangat sederhana dan sepele, perkembangan <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) tidak sesederhana dan sebatas itu. AI telah merambah ke berbagai bidang seperti kesehatan, militer bahkan pendidikan. Perkembangan AI sendiri sebenarnya sudah dimulai cukup lama, dimulai sejak tahun 1950-an saat seorang ilmuwan dari Massachusetts Institute of Technology (MIT) bernama John McCarthy menggagas sebuah konferensi di Dartmouth College di Hanover, Amerika Serikat.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
