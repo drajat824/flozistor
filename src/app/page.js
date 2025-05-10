@@ -32,12 +32,6 @@ export default function Home() {
             <p style={{ fontSize: '1rem' }}>Diposting oleh Drajat Fikri pada 1/3/2024 | Pendidikan</p>
           </Link>
           <hr style={{ border: '1px solid black', margin: '40px 0' }} />
-          {/* Repeat the block as necessary */}
-          <Link href="#" style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }}>
-            <p style={{ fontWeight: 'bolder', fontSize: '2.3rem' }}>Mengenal Dasar Elektronika: Panduan Lengkap untuk Pemula</p>
-            <p style={{ fontSize: '1.3rem' }}>Pelajari komponen dasar, fungsi, dan cara kerja rangkaian elektronik secara praktis dan mudah..</p>
-            <p style={{ fontSize: '1rem' }}>Diposting oleh Drajat Fikri pada 29/4/2025 | Elektronika</p>
-          </Link>
 
           {/* Button Postingan */}
           <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA POSTINGAN</Button>
@@ -58,11 +52,6 @@ export default function Home() {
             <p style={{ fontSize: 15 }}>Diposting oleh Drajat Fikri pada 1/3/2024 | Pendidikan</p>
           </Link>
           <hr style={{ border: '0.5px solid black', margin: '40px 0' }} />
-          <Link href="#" style={{ cursor: 'pointer', textDecoration: 'none', color: 'black' }}>
-            <p style={{ fontWeight: 'bolder', fontSize: 30 }}>Mengenal Dasar Elektronika: Panduan Lengkap untuk Pemula</p>
-            <p style={{ fontSize: 20 }}>Pelajari komponen dasar, fungsi, dan cara kerja rangkaian elektronik secara praktis dan mudah..</p>
-            <p style={{ fontSize: 15 }}>Diposting oleh Drajat Fikri pada 29/4/2025 | Elektronika</p>
-          </Link>
 
           {/* Button Postingan */}
           <Button variant="dark" style={{ marginTop: '40px', width: '100%', height: '50px', fontSize: '1.5rem', fontWeight: 'bold' }} onClick={() => window.location.href = "/post"}>LIHAT SEMUA POSTINGAN</Button>
