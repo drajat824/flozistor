@@ -28,11 +28,6 @@ export default function PostPage() {
             Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah penulis pelajari dan tutorial dari berbagai projek yang sudah penulis buat. Namun, terkadang penulis juga menuliskan pandangan penulis tentang beberapa hal yang penulis temui.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px' }}>
-            <a href="https://github.com/drajat824" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-              <div style={{ width: '50px', height: '50px', backgroundColor: 'black', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <img src="/icons/github.svg" alt="GitHub" style={{ width: '24px', height: '24px' }} />
-              </div>
-            </a>
             <a href="https://www.linkedin.com/in/drajatfikri/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div style={{ width: '50px', height: '50px', backgroundColor: 'black', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <img src="/icons/linkedin.svg" alt="LinkedIn" style={{ width: '24px', height: '24px' }} />
@@ -59,11 +54,6 @@ export default function PostPage() {
             Tujuan utama blog ini adalah sebagai tempat untuk mendokumentasikan apa yang sudah penulis pelajari dan tutorial dari berbagai projek yang sudah penulis buat. Namun, terkadang penulis juga menuliskan pandangan penulis tentang beberapa hal yang penulis temui.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px' }}>
-            <a href="https://github.com/drajat824" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-              <div style={{ width: '50px', height: '50px', backgroundColor: 'black', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <img src="/icons/github.svg" alt="GitHub" style={{ width: '24px', height: '24px' }} />
-              </div>
-            </a>
             <a href="https://www.linkedin.com/in/drajatfikri/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div style={{ width: '50px', height: '50px', backgroundColor: 'black', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <img src="/icons/linkedin.svg" alt="LinkedIn" style={{ width: '24px', height: '24px' }} />
