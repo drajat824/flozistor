@@ -35,7 +35,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Permainan tersebut dibuat menggunakan ChatGPT, sebuah <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) yang dikembangkan oleh OpenAI dan dirancang untuk memahami dan menghasilkan teks dalam berbagai konteks bahkan hingga menyelesaikan tugas seperti pemrograman.
+                        Permainan tersebut dibuat menggunakan ChatGPT, sebuah <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) yang dikembangkan oleh OpenAI dan dirancang untuk memahami serta memberikan jawaban dalam berbagai macam situasi, bahkan hingga menyelesaikan tugas seperti pemrograman.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
@@ -128,7 +128,7 @@ export default function PostPage() {
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
-                        Permainan tersebut dibuat menggunakan ChatGPT, sebuah <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) yang dikembangkan oleh OpenAI dan dirancang untuk memahami dan menghasilkan teks dalam berbagai konteks bahkan hingga menyelesaikan tugas seperti pemrograman.
+                        Permainan tersebut dibuat menggunakan ChatGPT, sebuah <span style={{ fontStyle: "italic" }}>Artificial Intelligence</span> (AI) yang dikembangkan oleh OpenAI dan dirancang untuk memahami serta memberikan jawaban dalam berbagai macam situasi, bahkan hingga menyelesaikan tugas seperti pemrograman.
                     </p>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
