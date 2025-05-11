@@ -31,7 +31,7 @@ export default function BackgroundImage({ src, title, subtitle }) {
                 <h1 style={{ color: 'white', position: 'absolute', top: '40%', fontSize: '4rem', fontWeight: 'bold', whiteSpace: 'pre-wrap', textAlign: 'center' }}>{title}</h1>
             </div>
             {/* Mobile */}
-            <div style={{ position: 'absolute', left: 0, width: '100%', display: 'flex', justifyContent: 'center' }} className="d-flex d-lg-none">
+            <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }} className="d-flex d-lg-none">
                 <div>
                     <div style={{ position: 'relative', width: '100vw', height: 'auto' }}>
                         <Image

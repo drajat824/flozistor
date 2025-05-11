@@ -112,7 +112,7 @@ export default function PostPage() {
             </div>
 
             {/* Konten Mobile */}
-            <div className="d-flex d-lg-none" style={{ marginTop: '420px' }}>
+            <div className="d-flex d-lg-none" >
                 <Container style={{ paddingBottom: '40px', paddingLeft: '20px', paddingRight: '20px' }}>
 
                     <p style={{ fontSize: '1.3rem', paddingBottom: 20 }} >
