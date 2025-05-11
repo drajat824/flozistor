@@ -13,19 +13,19 @@ export default function MyNavbar() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav className="gap-5">
-              <Link href="/" onClick={() => window.location.href = "/"} passHref style={{textDecoration: 'none'}} >
+              <Link href="/" onClick={() => window.location.href = "/"} passHref style={{ textDecoration: 'none' }} >
                 <Nav.Link style={{ fontSize: '1.3rem', color: 'white', fontWeight: 'bold', textDecoration: 'none' }}>
                   Beranda
                 </Nav.Link>
               </Link>
 
-              <Link href="/post" onClick={() => window.location.href = "/post"} passHref style={{textDecoration: 'none'}} >
+              <Link href="/post" onClick={() => window.location.href = "/post"} passHref style={{ textDecoration: 'none' }} >
                 <Nav.Link style={{ fontSize: '1.3rem', color: 'white', fontWeight: 'bold', textDecoration: 'none' }}>
                   Artikel
                 </Nav.Link>
               </Link>
 
-              <Link href="/about" onClick={() => window.location.href = "/about"} passHref style={{textDecoration: 'none'}} >
+              <Link href="/about" onClick={() => window.location.href = "/about"} passHref style={{ textDecoration: 'none' }} >
                 <Nav.Link style={{ fontSize: '1.3rem', color: 'white', fontWeight: 'bold', textDecoration: 'none' }}>
                   Tentang Saya
                 </Nav.Link>
@@ -38,7 +38,7 @@ export default function MyNavbar() {
       <Navbar className='d-flex d-lg-none' expand="lg" bg="dark" collapseOnSelect data-bs-theme="dark" style={{ zIndex: 1 }}>
         <Container>
           <Navbar.Brand href="#home">FLOZISTOR</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle style={{ boxShadow: "none", outline: "none", borderColor: "transparent" }} aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav className="me-auto">
